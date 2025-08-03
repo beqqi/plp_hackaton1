@@ -17,21 +17,21 @@
    
     <nav class= "navbar">
         <div class = "nav_brand">
-            <picture>
+           <a href="#"><picture>
                 <source srcset="images/logo.png" media="(max-width: 700px)">
                 <source srcset="images/logo_desktop.png" media="(max-width: 1500px)">
                 <img src="images/logo_desktop.png" alt="Ahlam's Logo" style="width:auto;">
-                </picture>
+            </picture></a>
          
         </div>
 
-          <!-- Mobile Menu Toggle -->
+        <!-- Hamburger checkbox (hidden) -->
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <label for="menu-toggle" class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
+    
+    <!-- Hamburger icon (visible) -->
+    <label for="menu-toggle" class="hamburger">☰</label>
+
+        <!-- Navigation links -->
 
         <div class="nav_links">
                 <a href="#projects">Projects</a>
@@ -44,57 +44,75 @@
 
 
     <div class="hero">
-    <h2>About Me</h2>
-    <p>Hello! I'm Ahlam, a career changer, a self-taught UX Designer and an aspiring web developer with a love for creating beautiful and functional websites. Welcome to my portfolio!</p>
+    <h2>Hello! </h2><h2> I'm Ahlam</h2>
+        <p>a career changer, a self-taught UX Designer and an aspiring software developer with a love for creating beautiful and functional websites.</p>
+        <p><span class="typewriter">Welcome to my portfolio!</span></p>
     </div><br><br><br>
 
     
-    <div class="projects">
+   <div class="projects">
         <h2>My Projects</h2>
+
         <p>Check out some of my work:</p>
+
         <div class="project_cards">
+
+
+
             <div class="card">
-                <img src="images/unsplash1.jpg" alt="Project 1 Thumbnail">
-                <p>UX Design: Personal Blog</p>
-                <a href="#">View Project</a>
+                <img src="images/unsplash1.jpg" alt="Description" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">UX Design: Conference App</h3>
+                    <p class="card-text">End-to-end mobile app design for a Conference app</p>
+                    <div class="card-actions">
+                        <a href="#" class="card-button">View Design</a>
+                        <a href="#" class="card-button secondary">Request Figma File Access</a>
+                    </div>
+                </div>
             </div>
+
             <div class="card">
-                <img src="images/unsplash1.jpg" alt="Project 2 Thumbnail">
-                <p>UX Design: E-commerce Site</p>
-                <a href="#">View Project </a>
-            </div>
-            <div class="card">
-                <img src="images/unsplash1.jpg" alt="Project 3 Thumbnail">
-                <p>Frontend: Portfolio Website</p>
-                <a href="#">View Project</a>
+            <img src="images/unsplash1.jpg" alt="Description" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">UX Design: E-Commerce Site</h3>
+                <p class="card-text">End-to-end mobile app design for an E-Commerce site</p>
+                <div class="card-actions">
+                    <a href="#" class="card-button">View Design</a>
+                    <a href="#" class="card-button secondary">Request Figma File Access</a>
+                </div>
             </div>
         </div>
-    </div><br><br><br>
+
+          <div class="card">
+                <img src="images/unsplash1.jpg" alt="Description" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Frontend Development: Portfolio Website</h3>
+                    <p class="card-text">A Responsive Portfolio Website built with HTML & CSS</p>
+                    <div class="card-actions">
+                        <a href="#" class="card-button">View Website</a>
+                        <a href="#" class="card-button secondary">Go to GitHub </a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
 
 
     <div class="education">
         <h2>Education</h2>
-            <p>Bachelor's Degree in Management</p>
-            <p>Programming Fundamentals Certificate</p>
-            <p>UX Design Fundamentals Certificate</p>
-            <p>Data Analysis Certificate</p>
-            <p>Applied AI Certificate</p>
+        <div class="marquee-container">
+            <span class="marquee-text">Bachelor's Degree in Management    |  Programming Fundamentals Certificate    |   UX Design Fundamentals Certificate      |Data Analysis Certificate   |    Applied AI Certificate   </span>
+
+        </div>
     </div><br><br><br>
 
-
-<div class="interests">
-    <h2>Interests</h2>
-        <p>Learning New Things</p>
-        <p>Baking</p>
-        <p>Gardening</p>
-        </div>
-    <br><br><br>
 
 
 <div class="contacts">
     <h2>Contact</h2>
-    <span class = "icons">
     <p>If you'd like to learn more or get in touch, feel free to reach out to me:</p>
+    <span class = "icons">
+    
         <a href="#" aria-label="LinkedIn"></a>
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                 <path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"></path><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"></path><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"></path><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"></path>
@@ -109,7 +127,7 @@
             </svg>
     </span>
 
-    <p>or want to get straight to business? Fill the form below and I will send you my quote within 24 hours.</p>
+    <p>You can also fill the form below and I will send you my quote within 24 hours.</p>
 
     <form class="contact-form" action="#" method="POST">
   <div class="form-group">
@@ -153,13 +171,20 @@
   <button type="submit" class="submit-btn">Send Message</button>
 </form>
 </div>
+</div>
+
+<div class="download_resume">
+    <a href="#" download>
+        <img src="images/download.svg" alt="Download Icon" class="download_icon">
+        Download Resume
+    </a>
+</div>
+
 
 
     <footer>
         <p>&copy; 2025 Ahlam. All rights reserved.</p>
-    </footer>
-</div>
-    
+    </footer>    
 
 
 </body>
